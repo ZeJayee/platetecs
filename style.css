@@ -10,7 +10,7 @@ h3 {
   font-size: 12px;
 }
 
-#header {
+.section {
   padding: 10px;
   border: 1px solid black;
   border-radius: 7px;
