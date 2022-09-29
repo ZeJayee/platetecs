@@ -1,0 +1,18 @@
+button {
+   cursor: pointer;
+}
+
+h2 {
+   font-size: 24px;
+}
+
+h3 {
+   font-size: 16px;
+}
+
+.section {
+   padding: 10px;
+   border: 1px solid black;
+   border-radius: 7px;
+	text-align: center;
+}
