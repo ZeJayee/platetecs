@@ -6,7 +6,7 @@
 			Plate Tectonics - Mariana Islands
 		</title>
 	</head>
-	<body onload="document.getElementById('answers').innerText = new URLSearchParams(window.location.search);">
+	<body onload="var p = new URLSearchParams(window.location.search); document.getElementById('answers').innerText = p.get('a1') + p.get('a2') + p.get('a3')">
 		<p id="answers" style="color:red;">
 		</p>
 		<br>
